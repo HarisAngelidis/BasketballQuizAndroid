@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Basketball Quiz</string>
+    <string name="insert_record">INSERT RECORD</string>
+    <string name="insert_id">insert id</string>
+    <string name="insert_title">Insert Title</string>
+    <string name="submit">Submit</string>
+    <string name="insert_recordq">INSERT RECORD</string>
+    <string name="insert_idq">insert id</string>
+    <string name="insert_name">Insert Name</string>
+    <string name="insert_surname">Insert Surname</string>
+    <string name="submitq">Submit</string>
+</resources>

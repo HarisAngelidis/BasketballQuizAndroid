@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/tables"
+            android:icon="@drawable/ic_action_tables"
+            android:title="Tables">
+        </item>
+
+
+        <item
+            android:id="@+id/queries"
+            android:icon="@drawable/action_query"
+            android:title="Find">
+        </item>
+        <item
+            android:id="@+id/process"
+            android:icon="@drawable/action_data_process"
+            android:title="Data Process">
+        </item>
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/action_home"
+            android:title="Home">
+        </item>
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/action_about"
+            android:title="About">
+        </item>
+    </group>
+</menu>

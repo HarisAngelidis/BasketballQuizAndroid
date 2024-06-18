@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightGrey"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UserInterface.UI_Menu_Fragment">
+
+    <Button
+
+        android:backgroundTint="@color/Bez"
+        android:id="@+id/newQuiz"
+        android:layout_width="172dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="32dp"
+        android:foregroundTint="#4CAF50"
+        android:text="Νέο Κουίζ"
+        android:textColorLink="#E91E63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/QuizSpinner" />
+
+    <Spinner
+        android:id="@+id/QuizSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_marginTop="4dp"
+
+        android:background="@drawable/spinner_background"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="283dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="176dp"
+        android:textColor="@color/LightBlue"
+        android:gravity="center"
+        android:text="Επιλέξτε Κουίζ"
+
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="113dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/basketball"
+        app:layout_constraintEnd_toStartOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="201dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="48dp"
+        android:gravity="center"
+        android:textColor="@color/LightBlue"
+        android:text="Basketball Quiz"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+
+        android:id="@+id/createQuiz"
+        android:layout_width="172dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="@color/Bez"
+        android:foregroundTint="#4CAF50"
+        android:text="Δημιουργία Κουίζ"
+        android:textColorLink="#E91E63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newQuiz" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

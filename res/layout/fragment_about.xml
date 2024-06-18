@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="302dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="32dp"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:text="About"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="356dp"
+        android:layout_height="556dp"
+        android:layout_marginTop="52dp"
+        android:gravity="left"
+        android:text="Η παρούσα εφαρμογή αναπτύχθηκε
+στα πλαίσια του μαθήματος Προηγμένα Θέματα Αλληλεπίδρασης
+ του τμήματος Μηχανικών Πληροφορικής και Ηλεκτρονικών Συστημάτων του ΔΙΠΑΕ.
+\n\n\n\nΕπικοινωνία για προβλήματα/προτάσεις: xangelidis100@gmail.com
+\n\nΤελευταία ενημέρωση 5/5/2024\nΈκδοση 1.2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+</androidx.constraintlayout.widget.ConstraintLayout>
